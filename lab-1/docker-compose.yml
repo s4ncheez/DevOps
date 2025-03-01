@@ -1,0 +1,13 @@
+services:
+  nginx:
+    image: mynginx
+    container_name: nginx
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./static:/etc/nginx/static/
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "8080:80"
+    restart: always
