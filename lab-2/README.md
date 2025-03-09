@@ -17,3 +17,7 @@
 
 #### Примечания:
 В качестве приложения был взят проект по предмету "Web-программирование", реализованный в 6 семестре. Стек: NestJS, Prisma, PostgreSQL
+Результат лабораторной работы:
+![image](https://github.com/user-attachments/assets/5c8b4d75-d87f-4441-a5b0-7cde71dddf83)
+![image](https://github.com/user-attachments/assets/3414aa0f-b9e9-45d0-bbcd-ddee35e2be13)
+
