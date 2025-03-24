@@ -1,11 +1,4 @@
-FROM system:v1 AS app
-
-WORKDIR /app
-
-COPY --from=build:v1 /app/node_modules ./node_modules
-COPY --from=build:v1 /app/package*.json ./
-COPY --from=build:v1 /app/dist ./dist
-COPY --from=build:v1 /app/src/prisma ./src/prisma
+FROM build:v1 AS app
 
 EXPOSE 3000
 
