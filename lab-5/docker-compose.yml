@@ -30,7 +30,7 @@ services:
     networks:
       - app-network
     env_file:
-      - ./react-frontend/.env
+      - .env
 
   db:
     image: mysql
